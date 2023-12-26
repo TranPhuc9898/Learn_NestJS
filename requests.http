@@ -1,0 +1,16 @@
+### List all messages
+
+GET http://localhost:3000/messages
+
+
+### Create new massage
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+ "content":"123123123"
+}
+
+
+### 
+GET http://localhost:3000/messages/144341234124124312
